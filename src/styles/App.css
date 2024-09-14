@@ -1,12 +1,75 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: rgb(108, 164, 145);
+  }
+  .main{
+   display: flex;
+   justify-content: center;
     
-
-button{
-    color: #27aedb;
-    text-align: center;
+  }
+  h2{
+    display: flex;
     justify-content: center;
-    align-items: center;
-}
+  }
+  .filter-btn{
+    margin: 50px 0px;
+    width: 37%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .container{
+    width: 70vw;
+   
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+  }
+  
+  
+  .card{
+     width: 30vw;
+      
+     display: flex;
+     gap: 15px;
+     height: 25vh;
+     margin: 10px 0;
+  }
+  .left{
+    width: 100%;
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .left > img{
+      width: 25vh;
+      height: 18vh;
+      border: 1px solid yellow ;
+  }
+  .title{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+  }
+  .price{
+    color: chocolate;
+    font-weight: bolder;
+    font-size: large;
+  }
+  .tit{
+    font-size: 30x;
+    color: black;
+    font-weight: 900;
+    letter-spacing: 1.3px;
+  }
